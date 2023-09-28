@@ -37,65 +37,78 @@ const Experience = () => {
         }
     )
     return (
-        <div className='my-64'>
-            <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-                Experience
-            </h2>
-            <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
+      <div className="my-64">
+        <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+          Experience
+        </h2>
+        <div
+          ref={ref}
+          className="w-[75%] mx-auto relative lg:w-[90%] md:w-full"
+        >
+          <motion.div
+            style={{ scaleY: scrollYProgress }}
+            className="absolute left-7 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
+                    md:w-[2px] md:left-[30px] xs:left-[20px]"
+          />
 
-                <motion.div
-                style={{scaleY: scrollYProgress}}
-                    className='absolute left-7 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
-                    md:w-[2px] md:left-[30px] xs:left-[20px]'
-                />
-        
-                    
-        
-                <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
-                    <Details
-                        position=" Software Engineer" company="Google" 
-                        companyLink="www.google.com"
-time="2022-Present" address=" Mountain View, CA"
-work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
-                    />
+          <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+            <Details
+              position=" Research Fellowship"
+              company="KIIT University"
+              companyLink="www.google.com"
+              time="2021-Present"
+              address=" Bhubaneswar, India"
+              work="played an instrumental role in a research project focused on Cybersecurity and Machine Learning. 
+                        I actively participated in designing experiments, collecting and analyzing data, and interpreting results.
+                        This collaborative effort resulted in a published paper titled 
+Cybersecurity Imminent threats in Higher Education with its Solutions in Reputable 4th Doctoral Symposium on 
+Intelligence Enabled Research 2022, showcasing our team's findings and innovative approach."
+            />
 
-                        <Details
-                        position=" Software Engineer" company="Google" 
-                        companyLink="www.google.com"
-time="2022-Present" address=" Mountain View, CA"
-work="Worked on a team responsible for developing new features for Google's 
+            <Details
+              position=" Junior Flutter Developer"
+              company="Kenmark ITan"
+              companyLink="www.google.com"
+              time="May 2023-August 2023"
+              address=" Bhubaneswar, India"
+                        work="As a Junior Flutter Developer at KenMark ITan Solution Company, I had the exciting opportunity 
+              to contribute to the development of a cutting-edge medical instrument supplying application.
+               Working within a dynamic team of developers, designers, and product managers, 
+               I played a pivotal role in bringing innovative solutions to the healthcare sector."
+            />
+            <Details
+              position=" Software Engineer"
+              company="Google"
+              companyLink="www.google.com"
+              time="2022-Present"
+              address=" Mountain View, CA"
+              work="Worked on a team responsible for developing new features for Google's 
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
-                    />
-                        <Details
-                        position=" Software Engineer" company="Google" 
-                        companyLink="www.google.com"
-time="2022-Present" address=" Mountain View, CA"
-work="Worked on a team responsible for developing new features for Google's 
+            />
+            <Details
+              position=" Software Engineer"
+              company="Google"
+              companyLink="www.google.com"
+              time="2022-Present"
+              address=" Mountain View, CA"
+              work="Worked on a team responsible for developing new features for Google's 
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
-                    />
-                        <Details
-                        position=" Software Engineer" company="Google" 
-                        companyLink="www.google.com"
-time="2022-Present" address=" Mountain View, CA"
-work="Worked on a team responsible for developing new features for Google's 
+            />
+            <Details
+              position=" Software Engineer"
+              company="Google"
+              companyLink="www.google.com"
+              time="2022-Present"
+              address=" Mountain View, CA"
+              work="Worked on a team responsible for developing new features for Google's 
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
-                    />
-                        <Details
-                        position=" Software Engineer" company="Google" 
-                        companyLink="www.google.com"
-time="2022-Present" address=" Mountain View, CA"
-work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
-                    />
-                </ul>
-            </div>
+            />
+          </ul>
         </div>
-    )
+      </div>
+    );
 }
 export default Experience

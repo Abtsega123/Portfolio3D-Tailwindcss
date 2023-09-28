@@ -47,8 +47,8 @@ const Education = () => {
         
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        type=" Bachelor Of Science In Computer Science" time="2016-2020 " 
-                        place="KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY"
+                        type=" Software Engineering" time="2021-2025 " 
+                        place="ALX AFRICA"
                         info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
 Intelligence."
                         
