@@ -327,54 +327,36 @@ const articles = () => {
                   <h2 className='font-bold text-4xl w-full text-center my-16 mt-32' >All Articles</h2>
                   <ul className='mx-auto max-w-screen-lg'>
                       <Article
-                          title="From Validation in ReacctJs: Build A Reusable Custom Hook For Inputs And Errors"
-                          date="March 23, 2023"
-                          link="/"
+                          title="Cyber Sentinel Chronicles: Navigating The Digital Frontier With Vigilance And Innovation"
+                          date="October 21, 2023"
+                          link="https://dertogada-blog-cnne.vercel.app/blogs/building-progressive-web-apps-bridging-the-gap-between-web-and-mobile"
                           img={article12}
                       
                       />
                        <Article
-                          title="From Validation in ReacctJs: Build A Reusable Custom Hook For Inputs And Errors"
-                          date="March 23, 2023"
-                          link="/"
+                          title="Mindfulness And Meditation Techniques For Developers: Improving Focus And Clarity"
+                          date="October 21, 2023"
+                          link="https://dertogada-blog-cnne.vercel.app/blogs/mindfulness-and-meditation-techniques-for-developers-improving-focus-and-clarity"
                           img={article13}
                       
                       />
                        <Article
-                          title="From Validation in ReacctJs: Build A Reusable Custom Hook For Inputs And Errors"
-                          date="March 23, 2023"
-                          link="/"
+                          title="Tech Trends Unleashed: A Cybersecurity Odyssey"
+                          date="October 21, 2023"
+                          link="https://dertogada-blog-cnne.vercel.app/blogs/web-accessibility-inclusive-design"
                           img={article14}
                       
                       />
                        <Article
-                          title="From Validation in ReacctJs: Build A Reusable Custom Hook For Inputs And Errors"
-                          date="March 23, 2023"
-                          link="/"
+                          title="Hacking The Hackers: Tales Of Cyber Resilience In The Tech Age"
+                          date="October 21, 2023"
+                          link="https://dertogada-blog-cnne.vercel.app/blogs/js-frameworks-comparison"
                           img={article15}
                       
                       />
-                       <Article
-                          title="From Validation in ReacctJs: Build A Reusable Custom Hook For Inputs And Errors"
-                          date="March 23, 2023"
-                          link="/"
-                          img={article16}
                       
-                      />
-                       <Article
-                          title="From Validation in ReacctJs: Build A Reusable Custom Hook For Inputs And Errors"
-                          date="March 23, 2023"
-                          link="/"
-                          img={article17}
                       
-                      />
-                       <Article
-                          title="From Validation in ReacctJs: Build A Reusable Custom Hook For Inputs And Errors"
-                          date="March 23, 2023"
-                          link="/"
-                          img={article18}
                       
-                      />
                   </ul>
         </Layout>
       </main>
