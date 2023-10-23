@@ -11,8 +11,8 @@ const Footer = () => {
         <div className='flex items-center lg:py-2'>
           
           Build With <span className='text-primary dark:text-primaryDark text 2xl px-1'>&#9825;</span>
-          by&nbsp;<Link href="https://devdreaming.com" className='underline underline-offset-2'
-            target={"_blank"}>CodeBucks</Link>
+          by&nbsp;<Link href="https://www.linkedin.com/in/abtsega-tesfaye-2564361ba/" className='underline underline-offset-2'
+            target={"_blank"}>AbtsegaTesfaye</Link>
         </div>
         {/* <Link href="https://devdreaming.com" target={"_blank"} className='underline underline-offset-2'>Say holla</Link> */}
        

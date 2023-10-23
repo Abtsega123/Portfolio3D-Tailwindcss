@@ -43,7 +43,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
                 <div className='mt-2 flex items-center'>
                     <Link href={github} target="_blank" className='w-10'> <GithubIcon />
                     </Link>
-                    <Link href={link} target="_blank" className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg 
+                    <Link href="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend" target="_blank" className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg 
                     font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base'>Visit Project
                     </Link>
 
@@ -110,8 +110,8 @@ const projects = () => {
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link="/"
-                github="htps://www.github.com/Abtsega123"
+                link="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend"
+                github="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend"
                 type="Featured Project"
               />
             </div>
@@ -119,17 +119,15 @@ local currency."
               <Project
                 title="Agora Video ChatApp"
                 img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link="/"
-                github="htps://www.github.com/Abtsega123"
+                summary="A feature-rich "
+                link="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend"
+                github="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="NodeJS BlogApp"
+                title="NextJs BlogApp"
                 img={project1}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
@@ -146,8 +144,8 @@ local currency."
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link="/"
-                github="htps://www.github.com/Abtsega123"
+                link="https://github.com/Abtsega123/AI-Image-generator"
+                github="https://github.com/Abtsega123/AI-Image-generator"
                 type="Featured Project"
               />
             </div>
@@ -182,8 +180,8 @@ local currency."
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link="/"
-                github="htps://www.github.com/Abtsega123"
+                link="https://github.com/Abtsega123/Portfolio3D-Tailwindcss"
+                github="https://github.com/Abtsega123/Portfolio3D-Tailwindcss"
                 type="Featured Project"
               />
             </div>

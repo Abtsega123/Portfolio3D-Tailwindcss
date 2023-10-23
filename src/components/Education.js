@@ -65,9 +65,9 @@ Intelligence."
 
                     />
                         <Details
-                        type=" Bachelor Of Science In Computer Science" time="2016-2020 " 
-                        place="KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
+                        type=" Certificate Program" time="2021-2023 " 
+                        place="APISEC UNIVERSITY"
+                        info="Relevant courses included Threats and Vulnerability hunting, Cybersecurity, Networking
 Intelligence."
                         
 

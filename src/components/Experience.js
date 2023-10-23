@@ -76,35 +76,34 @@ Intelligence Enabled Research 2022, showcasing our team's findings and innovativ
                Working within a dynamic team of developers, designers, and product managers, 
                I played a pivotal role in bringing innovative solutions to the healthcare sector."
             />
-            <Details
+            {/* <Details
               position=" Software Engineer"
               company="Google"
               companyLink="www.google.com"
               time="2022-Present"
               address=" Mountain View, CA"
               work="Worked on a team responsible for developing new features for Google's 
+search engine, including improving the accuracy and relevance of search results and 
+developing new tools for data analysis and visualization."
+            /> */}
+            <Details
+              position=" Cybersecurity Intern"
+              company="MasterCard"
+              companyLink="www.google.com"
+              time="2023-September"
+              address=" Remote(Virtual), Online"
+              work="Worked on a team responsible for developing new features for Mastercard's 
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
             />
             <Details
-              position=" Software Engineer"
-              company="Google"
+              position=" CyberTechn Intern"
+              company="Deloitte"
               companyLink="www.google.com"
-              time="2022-Present"
-              address=" Mountain View, CA"
-              work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
-            />
-            <Details
-              position=" Software Engineer"
-              company="Google"
-              companyLink="www.google.com"
-              time="2022-Present"
-              address=" Mountain View, CA"
-              work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+              time="2023-March"
+              address=" Remote(Virtual), Online"
+              work="Worked on a team responsible for developing new features for Delotte's 
+Analysing Threats and giving response."
             />
           </ul>
         </div>
