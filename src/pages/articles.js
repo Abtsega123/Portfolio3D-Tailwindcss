@@ -26,6 +26,10 @@ import article19 from "../../public/images/articles/devtown1.jpg"
 import article20 from "../../public/images/articles/udemyflutter.jpg"
 import article21 from "../../public/images/articles/internkiit.jpg"
 import article22 from "../../public/images/articles/devtownback.jpg"
+import article23 from "../../public/images/articles/cyber.jpg"
+import article24 from "../../public/images/articles/mind.jpg"
+import article25 from "../../public/images/articles/com.jpg"
+import article26 from "../../public/images/articles/com1.jpg"
 import { motion } from "framer-motion"
 import { useMotionValue } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
@@ -136,169 +140,169 @@ const articles = () => {
           <ul className='grid grid-cols-3 gap-10 lg:gap-8 md:grid-cols-1 md:gap-y-16 '> {/* Added mx-auto and max-w-screen-lg */}
             <FeaturedArticles
               title="Back End Development and APIs"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
               img={article1}
             />
             <FeaturedArticles
               title="Data Analysis with Python"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
               img={article2}
                       />
                       <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="Deloitte Virtual Technology Internship"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
               img={article3}
                       />
                       <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="Freecodecamp Responsive Web Design"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
               img={article4}
                       />
                       <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="JPMorgan Cybersecurity Virtual Internship"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
               img={article5}
                       />
                       <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="JPMorgan Software Virtual Internship"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
               img={article6}
                       />
                                 <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="DOSIER Research Paper Publication"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
               img={article7}
                       />
                                 <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="ICDCIT Cybersecurity Workshop"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
               img={article8}
                       />
                                 <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="ALX Software Engineering BootCamp"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
               img={article9}
                       />
                                 <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="G20 Youth Summit"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
               img={article10}
                       />
                                 <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="Proficient in Linux Badge"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article11}
                           
                       />
                        <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="International Astronomy and Astrophysics Competition"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article12}
                           
                       />
                        <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="International Youth Math Competition"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article13}
                           
                       />
                        <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="Stanform Machine Learning Certificate"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article14}
                           
                       />
                                <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="Google Foundation of Cybersecurity"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article15}
                           
                       />
                                <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="IBM Cybersecurity Roles"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article16}
                           
                       />
                                <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="Google Technical Support Fundamental"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article17}
                           
                       />
                                <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="IBM Cybersecurity Tools"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article18}
                           
                       />
                                <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="Devtown Community Volunteer Program"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article19}
                           
                       />
                                <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="Udemy Flutter and Dart Advance"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article20}
@@ -306,18 +310,18 @@ const articles = () => {
                       />
                       
                                <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="KIIT Internship Camp"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article21}
                           
                       />
                                <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch
-              Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              title="Devtown Backend-Nodejs & Express"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
               link="/"
                           img={article22}
@@ -330,28 +334,28 @@ const articles = () => {
                           title="Cyber Sentinel Chronicles: Navigating The Digital Frontier With Vigilance And Innovation"
                           date="October 21, 2023"
                           link="https://dertogada-blog-cnne.vercel.app/blogs/building-progressive-web-apps-bridging-the-gap-between-web-and-mobile"
-                          img={article12}
+                          img={article23}
                       
                       />
                        <Article
                           title="Mindfulness And Meditation Techniques For Developers: Improving Focus And Clarity"
                           date="October 21, 2023"
                           link="https://dertogada-blog-cnne.vercel.app/blogs/mindfulness-and-meditation-techniques-for-developers-improving-focus-and-clarity"
-                          img={article13}
+                          img={article24}
                       
                       />
                        <Article
                           title="Tech Trends Unleashed: A Cybersecurity Odyssey"
                           date="October 21, 2023"
                           link="https://dertogada-blog-cnne.vercel.app/blogs/web-accessibility-inclusive-design"
-                          img={article14}
+                          img={article25}
                       
                       />
                        <Article
                           title="Hacking The Hackers: Tales Of Cyber Resilience In The Tech Age"
                           date="October 21, 2023"
                           link="https://dertogada-blog-cnne.vercel.app/blogs/js-frameworks-comparison"
-                          img={article15}
+                          img={article26}
                       
                       />
                       
