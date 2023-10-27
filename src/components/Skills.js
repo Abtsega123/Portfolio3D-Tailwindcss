@@ -36,16 +36,19 @@ const Skills = () => {
           Cybersecurity
         
         </motion.div>
-         <Skill name="HTML" x='-22vw' y='-2vw' />
-        <Skill name="CSS" x='-5vw' y='-10vw' />
-        <Skill name="MobileDev" x='20vw' y='6vw' />
-        <Skill name="Firebase" x='0vw' y='12vw' />
+         <Skill name="Vulnerability Assesment" x='-22vw' y='-2vw' />
+        <Skill name="Threat Hunting" x='-5vw' y='-10vw' />
+        <Skill name="Mobile&WebDev" x='20vw' y='6vw' />
+        <Skill name="Firebase|Github" x='0vw' y='12vw' />
         <Skill name="Python" x='-20vw' y='-15vw' />
         <Skill name="Networking" x='15vw' y='-12vw' />
         <Skill name="Researching" x='32vw' y='-5vw' />
         <Skill name="SQL" x='0vw' y='-20vw' />
         <Skill name="GameDev" x='-25vw' y='18vw' />
          <Skill name="Javascript" x='18vw' y='18vw' />
+         <Skill name="Scripting" x='18vw' y='18vw' />
+         <Skill name="Linux OS" x='18vw' y='18vw' />
+         <Skill name="Hacking Tools: Burpsuite | Nmap | Metasploit" x='-2vw' y='22vw' />
 
       </div>
     </>

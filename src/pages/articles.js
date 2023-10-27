@@ -135,7 +135,7 @@ const articles = () => {
       <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
               <Layout className='pt-16'>
                   
-                  <AnimatedText text='Words Can Change The World' className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
+                  <AnimatedText text='Empowering Tomorrow, Securing Today: Innovate with Confidence in the Digital Frontier.' className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
                   <h2 className='font-bold text-4xl w-full text-center my-16 mt-32' >Certifications</h2>
           <ul className='grid grid-cols-3 gap-10 lg:gap-8 md:grid-cols-1 md:gap-y-16 '> {/* Added mx-auto and max-w-screen-lg */}
             <FeaturedArticles
@@ -246,7 +246,7 @@ const articles = () => {
                           
                       />
                        <FeaturedArticles
-              title="Stanform Machine Learning Certificate"
+              title="Stanford Machine Learning Certificate"
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               

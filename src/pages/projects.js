@@ -4,7 +4,14 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import project1 from "../../public/images/projects/qrcode.jpg"
+import project2 from "../../public/images/projects/Agora.jpg"
+import project3 from "../../public/images/projects/Blog.jpg"
+import project4 from "../../public/images/projects/AIimage.jpg"
+import project5 from "../../public/images/projects/pay.jpg"
+import project6 from "../../public/images/projects/threads.jpg"
+
+
 import { GithubIcon } from '@/components/Icons'
 import {motion} from "framer-motion"
 import TransitionEffect from '@/components/TransitionEffect'
@@ -105,11 +112,10 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="QR Code Based Library Attendance System"
+                title="Secured QR Code Based Library Attendance System"
                 img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
+                summary="A secured attendance system for a school library management using a QR code. It's enables fast utilization and 
+                security for the students information and library management system"
                 link="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend"
                 github="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend"
                 type="Featured Project"
@@ -117,9 +123,10 @@ local currency."
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Agora Video ChatApp"
-                img={project1}
-                summary="A feature-rich "
+                title="Secured Agora Video ChatApp"
+                img={project2}
+                summary="A secured video chatapp using built in Agora video chat mode. Enabling ease access 
+                and giving a better consideration for a security and communication among users, it uses a built server using Agora. "
                 link="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend"
                 github="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend"
                 type="Featured Project"
@@ -127,8 +134,8 @@ local currency."
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="NextJs BlogApp"
-                img={project1}
+                title="Cyberly NextJs BlogApp"
+                img={project3}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
@@ -140,10 +147,8 @@ local currency."
             <div className="col-span-12">
               <FeaturedProject
                 title="AI Image Generator"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
+                img={project4}
+                summary="AI based Image generator after taking inputs from the user. It enables a secured feature by eliminating a vulnerability."
                 link="https://github.com/Abtsega123/AI-Image-generator"
                 github="https://github.com/Abtsega123/AI-Image-generator"
                 type="Featured Project"
@@ -151,11 +156,9 @@ local currency."
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="World Time Flutter App"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
+                title="Secured Payment System- Stripe"
+                img={project5}
+                summary="A secured payment system for commerce and any other online payment using a Stripe and other API to enable a secured payment"
                 link="/"
                 github="htps://www.github.com/Abtsega123"
                 type="Featured Project"
@@ -163,11 +166,10 @@ local currency."
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Food Deliveryy Menu Flutter App"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
+                title="College Version Threads App"
+                img={project6}
+                summary="Taking a feature of Threads-Instagram app and making it compatible for college use. It enables students have a 
+                secured chat, videos and photoes post and share their story as well."
                 link="/"
                 github="htps://www.github.com/Abtsega123"
                 type="Featured Project"
@@ -185,7 +187,9 @@ local currency."
                 type="Featured Project"
               />
             </div>
+            
           </div>
+          
         </Layout>
       </main>
     </>
