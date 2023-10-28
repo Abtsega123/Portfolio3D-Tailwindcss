@@ -30,6 +30,8 @@ import article23 from "../../public/images/articles/cyber.jpg"
 import article24 from "../../public/images/articles/mind.jpg"
 import article25 from "../../public/images/articles/com.jpg"
 import article26 from "../../public/images/articles/com1.jpg"
+import article27 from "../../public/images/articles/inter.jpg"
+
 import { motion } from "framer-motion"
 import { useMotionValue } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
@@ -143,7 +145,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/backend.jpg"
               img={article1}
             />
             <FeaturedArticles
@@ -151,7 +153,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/data.jpg"
               img={article2}
                       />
                       <FeaturedArticles
@@ -159,7 +161,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/deloitte.jpg"
               img={article3}
                       />
                       <FeaturedArticles
@@ -167,7 +169,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/web.jpg"
               img={article4}
                       />
                       <FeaturedArticles
@@ -175,7 +177,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/morgancyber.jpg"
               img={article5}
                       />
                       <FeaturedArticles
@@ -183,7 +185,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/morgansoftware.jpg"
               img={article6}
                       />
                                 <FeaturedArticles
@@ -191,7 +193,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/research.jpg"
               img={article7}
                       />
                                 <FeaturedArticles
@@ -199,7 +201,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/workshop.jpg"
               img={article8}
                       />
                                 <FeaturedArticles
@@ -207,7 +209,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/alx.jpg"
               img={article9}
                       />
                                 <FeaturedArticles
@@ -215,7 +217,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/G20.jpg"
               img={article10}
                       />
                                 <FeaturedArticles
@@ -223,7 +225,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/linux.jpg"
                           img={article11}
                           
                       />
@@ -232,7 +234,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/iaac.jpg"
                           img={article12}
                           
                       />
@@ -241,7 +243,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/iymc.jpg"
                           img={article13}
                           
                       />
@@ -250,7 +252,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/super.jpg"
                           img={article14}
                           
                       />
@@ -259,7 +261,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/cybergoogle.jpg"
                           img={article15}
                           
                       />
@@ -268,7 +270,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/ibmcyber.jpg"
                           img={article16}
                           
                       />
@@ -277,7 +279,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/technicalgoogle.jpg"
                           img={article17}
                           
                       />
@@ -286,7 +288,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/ibmcyber2.jpg"
                           img={article18}
                           
                       />
@@ -295,7 +297,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/devtown1.jpg"
                           img={article19}
                           
                       />
@@ -304,7 +306,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/udemyflutter.jpg"
                           img={article20}
                           
                       />
@@ -314,7 +316,7 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/internkiit.jpg"
                           img={article21}
                           
                       />
@@ -323,8 +325,17 @@ const articles = () => {
             //   summary="Learn how to build a custom pagination component in ReactJS from scratch
             //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
               
-              link="/"
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/devtownback.jpg"
                           img={article22}
+                          
+                      />
+                       <FeaturedArticles
+              title="HackerRank Problem Solving-Intermediate"
+            //   summary="Learn how to build a custom pagination component in ReactJS from scratch
+            //   Follow this step-by-step guide to integrate Pagination component in your ReactJS project"
+              
+              link="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/problem_solving_intermediate%20certificate_page-0001.jpg"
+                          img={article27}
                           
                       />
                   </ul>
