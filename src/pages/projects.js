@@ -1,21 +1,79 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useMotionValue } from 'framer-motion';
 import project1 from "../../public/images/projects/qrcode.jpg"
 import project2 from "../../public/images/projects/Agora.jpg"
 import project3 from "../../public/images/projects/Blog.jpg"
 import project4 from "../../public/images/projects/AIimage.jpg"
 import project5 from "../../public/images/projects/pay.jpg"
 import project6 from "../../public/images/projects/threads.jpg"
+import project7 from "../../public/images/projects/file.jpg"
+import project8 from "../../public/images/projects/url.jpg"
+import project9 from "../../public/images/projects/open.jpg"
+import project10 from "../../public/images/projects/meal.jpg"
+import project11 from "../../public/images/projects/time.jpg"
 
 
 import { GithubIcon } from '@/components/Icons'
 import {motion} from "framer-motion"
 import TransitionEffect from '@/components/TransitionEffect'
 
+
+const MovingImg = ({ title, img, link }) => {
+
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+  const imgRef = useRef(null);
+
+  function handleMouse(event) {
+     imgRef.current.style.display = "inline-block";
+     x.set(event.pageX);
+     y.set(-10)
+  }
+  function handleMouseLeave(event) {
+     imgRef.current.style.display = "none";
+     x.set(0);
+     y.set(0)
+  }
+  return (
+      <Link href={link} target="_blank"
+      
+          onMouseMove={handleMouse}
+          onMouseLeave={handleMouseLeave}
+      
+      >
+          
+          
+          <h2 className='capitalize text-xl font-semibold hover:underline'>{title}</h2>
+          <FramerImage
+              style={{ x: x, y: y }}
+              initial={{ opacity: 0 }}
+              whileInView={{opacity:1, transition:{duration:0.2}}}
+              ref={imgRef} src={img} alt={title} className='z-10 w-96 h-auto hidden absolute rounded-lg md:!hidden' />
+
+          </Link>
+  )
+}
+
+const Article = ({ img, title, date, link }) => {
+  return (
+      <motion.li
+          initial={{ y: 200 }}
+          whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
+          viewport={{once: true}}
+          className='relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark 
+      first:mt-0 border border-solid border-dark border-r-4 border-b-4 dark:border-light dark:bg-dark dark:text-light
+      sm:flex-col'>
+          <MovingImg title={title} img={img} link={link} />
+         
+          <span className='text-primary font-semibold pl-4 dark:text-primaryDark sm:self-start sm:pl-0 xs:text-sm'>{date}</span>
+      </motion.li>
+  )
+}
 
 const FramerImage = motion(Image);
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -105,7 +163,7 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout>
           <AnimatedText
-            text="Imagination Trums Knowledge"
+            text="Projects Propel Progress: Transforming Ideas into Impact"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
 
@@ -127,20 +185,20 @@ const projects = () => {
                 img={project2}
                 summary="A secured video chatapp using built in Agora video chat mode. Enabling ease access 
                 and giving a better consideration for a security and communication among users, it uses a built server using Agora. "
-                link="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend"
-                github="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend"
+                link="https://github.com/Abtsega123/Agora-VideoChat-App"
+                github="https://github.com/Abtsega123/Agora-VideoChat-App"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Cyberly NextJs BlogApp"
+                title="Cyberly NextJs BlogApp- Dertogada"
                 img={project3}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link="/"
-                github="htps://www.github.com/Abtsega123"
+                link="https://dertogada-blog-cnne.vercel.app/"
+                github="https://github.com/Abtsega123/DertogadaBlog"
                 type="Featured Project"
               />
             </div>
@@ -156,11 +214,11 @@ local currency."
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Secured Payment System- Stripe"
+                title="Secured Payment System - Stripe"
                 img={project5}
                 summary="A secured payment system for commerce and any other online payment using a Stripe and other API to enable a secured payment"
-                link="/"
-                github="htps://www.github.com/Abtsega123"
+                link="https://stripe-payment-xei5.vercel.app/"
+                github="https://github.com/Abtsega123/Stripe-payment"
                 type="Featured Project"
               />
             </div>
@@ -170,8 +228,8 @@ local currency."
                 img={project6}
                 summary="Taking a feature of Threads-Instagram app and making it compatible for college use. It enables students have a 
                 secured chat, videos and photoes post and share their story as well."
-                link="/"
-                github="htps://www.github.com/Abtsega123"
+                link="https://threads-app-kiit-version.vercel.app/"
+                github="https://github.com/Abtsega123/KIIT-Thread-App"
                 type="Featured Project"
               />
             </div>
@@ -182,15 +240,60 @@ local currency."
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-                link="https://github.com/Abtsega123/Portfolio3D-Tailwindcss"
+                link="https://portfolio3-d-tailwindcss-vso1.vercel.app/"
                 github="https://github.com/Abtsega123/Portfolio3D-Tailwindcss"
                 type="Featured Project"
               />
             </div>
             
           </div>
+
+          <Article
+                          title="File Metadata Microservice"
+                          date="September 6, 2023"
+                          link="https://github.com/Abtsega123/File-Metadata-Microservice"
+                           img={project7}
+                      
+                      />
+                      <Article
+                          title="URL Shortener"
+                          date="September 6, 2023"
+                          link="https://github.com/Abtsega123/url_shortener"
+                           img={project8}
+                      
+                      />
+                      <Article
+                          title="Open Source Contribution"
+                          date="September 6, 2023"
+                          link="https://github.com/Abtsega123/first-contributions"
+                          
+                           img={project9}
+                      
+                      />
+                      <Article
+                          title="Flutter Meal  Apk"
+                          date="September 6, 2023"
+                          link="https://github.com/Abtsega123/Meal_App"
+                           img={project10}
+                      
+                      /> 
+                      <Article
+                      title="Flutter World Time Apk"
+                      date="September 6, 2023"
+                      link="https://github.com/Abtsega123/World_Time"
+                       img={project11}
+                  
+                  />
           
         </Layout>
+
+
+
+
+
+
+        {/* this is it, the promptu */}
+        
       </main>
     </>
   );
