@@ -16,6 +16,7 @@ import project8 from "../../public/images/projects/url.jpg"
 import project9 from "../../public/images/projects/open.jpg"
 import project10 from "../../public/images/projects/meal.jpg"
 import project11 from "../../public/images/projects/time.jpg"
+import project12 from "../../public/images/projects/research.jpg"
 
 
 import { GithubIcon } from '@/components/Icons'
@@ -108,9 +109,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
                 <div className='mt-2 flex items-center'>
                     <Link href={github} target="_blank" className='w-10'> <GithubIcon />
                     </Link>
-                    <Link href="https://github.com/Abtsega123/QR-based-Library-Attendance-System-Backend" target="_blank" className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg 
-                    font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base'>Visit Project
-                    </Link>
+                   
 
                 </div>
             </div>
@@ -166,6 +165,18 @@ const projects = () => {
             text="Projects Propel Progress: Transforming Ideas into Impact"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
+           <h2 className='font-bold text-4xl w-full text-center my-16 mt-32' >Publications</h2>
+           <FeaturedProject
+                title="Cybersecurity Imminent Threats with its Solutions in Higher Education - Springer"
+                img={project12}
+                summary="Published a research paper on a 4th Doctoral Symposium on Intelligence Enabled Research, 
+                DOSIER 2021 on a reseach paper titled: Cybersecurity Imminent Threats in Higher Education with its Solution  co-authored
+                with Dr.Debajyotiy Banink and Dr. Mahendra Kumal"
+                link="https://orcid.org/0000-0001-6768-9920"
+                github="https://raw.githubusercontent.com/Abtsega123/CertificateImages/main/research.jpg"
+                type="Publication"
+              />
+                      <h2 className='font-bold text-4xl w-full text-center my-16 mt-32' >Projects</h2>
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
