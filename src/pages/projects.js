@@ -217,7 +217,7 @@ local currency."
                 title="Secured Payment System - Stripe"
                 img={project5}
                 summary="A secured payment system for commerce and any other online payment using a Stripe and other API to enable a secured payment"
-                link="https://stripe-payment-xei5.vercel.app/"
+                link="https://stripe-payment-xei5-3pv0ehbgg-abtsega123s-projects.vercel.app/"
                 github="https://github.com/Abtsega123/Stripe-payment"
                 type="Featured Project"
               />
