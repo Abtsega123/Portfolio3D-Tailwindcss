@@ -363,7 +363,7 @@ const articles = () => {
                       
                       />
                        <Article
-                          title="Hacking The Hackers: Tales Of Cyber Resilience In The Tech Age"
+                          title="hAcKinG The Hackers: Tales Of Cyber Resilience In The Tech Age"
                           date="October 21, 2023"
                           link="https://dertogada-blog-cnne.vercel.app/blogs/js-frameworks-comparison"
                           img={article26}
